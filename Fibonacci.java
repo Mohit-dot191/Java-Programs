@@ -10,7 +10,7 @@ public class Fibonacci {
 		int size = sc.nextInt();
 		int num1=0,num2=1,sum=0;
 		System.out.print(num1+" "+num2 +" ");
-		for(int i=0;i<size;i++)
+		for(int i=2;i<size;i++)
 		{
 			sum = num1 + num2;
 			System.out.print(sum+" ");
